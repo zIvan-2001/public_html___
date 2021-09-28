@@ -1,0 +1,129 @@
+.barraLateral {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+.barraLateral a svg {
+  width: 25px;
+  transition: 0.5s all ease;
+}
+.barraLateral a svg:hover {
+  stroke: #d90429;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 5em;
+  align-items: center;
+  margin: 20px 300px;
+}
+nav .botones a {
+  color: #6c757d;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: 0.5s all ease;
+}
+nav .botones a:hover {
+  color: #fff;
+  background: #d90429;
+  border-radius: 5px;
+}
+
+main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 300px;
+}
+main .info {
+  padding: 0px 50px 0px 0px;
+}
+main .info p {
+  padding: 20px 0px;
+}
+main .info button {
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 20px;
+  background: #ef233c;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s all ease;
+}
+main .info button:hover {
+  background: #d90429;
+}
+main .img img {
+  width: 500px;
+}
+
+section {
+  height: 50vh;
+  margin: 20px 300px;
+  opacity: 0;
+  transition: 1s ease;
+  transform: translateY(100px);
+}
+section .box .box-box {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+section .box .box-box .box-box-img {
+  position: relative;
+}
+section .box .box-box .box-box-img img {
+  width: 45rem;
+}
+section .box .box-box .box-box-img .background {
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.5s all ease;
+}
+section .box .box-box .box-box-img .background:hover {
+  opacity: 0;
+}
+section .box .box-box .box-box-info {
+  position: relative;
+}
+section .box .box-box .box-box-info p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+section .box .box-box .box-box-info .data {
+  margin: 0px 0px 0px -50px;
+  background: #0c1447;
+  padding: 20px;
+}
+
+.aparece {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #03071e;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

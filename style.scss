@@ -1,0 +1,16 @@
+@use "./Style/barraLateral";
+@use "./Style/header";
+@use "./Style/container.scss";
+@use "./Style/secction";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #03071e;
+  color: #fff;
+}
